@@ -1,15 +1,69 @@
 .App {
+  width:80vw;
   text-align: center;
+  border: 1px solid gray;
+  margin: 0.5rem  auto;
+  padding: 0.5rem;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.input-fields{
+  padding: 0.3rem;
+}
+
+label{
+  display: flex;
+  justify-content: flex-start;
+}
+.checkboxs{
+  display: flex;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+p{
+  font-size: 0.6rem;
+  margin-left: -130px;
+  margin-top: -4px;
+}
+.check-para{
+  margin-left: -190px;
+}
+.check-inpt{
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-btn{
+  display: flex;
+}
+.save-btn{
+  font-weight: 800;
+  width: 15vw;
+  padding: 0.5em;
+  border-radius: 12px;
+  border: 1px solid blue;
+  background-color: skyblue;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+  p{
+    margin-left: 15px;
+  }
+  h3{
+    margin-left: -270px;
   }
 }
 
